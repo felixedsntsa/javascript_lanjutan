@@ -123,7 +123,7 @@ function Perpustakaan(nama) {
 };
 
 Perpustakaan.prototype.tambahBuku = function(judul) {
-    this.koleksi.push(judul);
+    this.koleksi.push(this.judul);
     return `Buku "${this.judul}" berhasil ditambahkan ke koleksi.`;
 };
 
